@@ -1,0 +1,41 @@
+:root {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+}
+#vid,
+#abouttext {
+  width: 50%;
+  max-width: 50%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-shadow: 0px 0px 2px black;
+}
+main section p {
+  padding: 4%;
+}
+video {
+  border: 3px solid blue;
+  width: 90%;
+  height: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+#moretext {
+  width: 100%;
+}
